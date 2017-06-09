@@ -115,7 +115,7 @@ destination points.
 
 Example:
 
-![transform_test3](transform_test3.png)
+![transform_test3](assets/transform_test3.png)
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
@@ -150,7 +150,7 @@ def map_lane(undist_img, binary_warped, left_fitx, right_fitx):
     return result
 ```
 
-![overlay_lane_line_test3](overlay_lane_line_test3.png)
+![overlay_lane_line_test3](assets/overlay_lane_line_test3.png)
 
 ---
 
@@ -158,7 +158,7 @@ def map_lane(undist_img, binary_warped, left_fitx, right_fitx):
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video_output.mp4)
+Here's a [link to my video result](./project_video_out.mp4)
 
 ---
 
