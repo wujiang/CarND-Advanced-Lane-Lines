@@ -166,4 +166,12 @@ Here's a [link to my video result](./project_video_out.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-When processing each image, I didn't take adavange of the lane position from the previous image. So speed performance is slow.
+When processing each image, I didn't take adavange of the lane position from the
+previous image. So speed performance is slow. I didn't apply smoothing either
+because of time limitation.
+
+I need to eyeball some of the parameters, like the warp src and dst vertices,
+car's middle position, etc. If we switch to another video with different road
+condition, different camera position/angle, this pipeline might not perform
+well. I spent a lot of time on tuning parameters. There much be an easier way
+other than this.
